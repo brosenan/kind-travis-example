@@ -13,4 +13,5 @@ script:
   - echo "Kubernetes ready - run tests!"
   - mkdir -p ~/.kube
   - curl http://127.0.0.1:10080/config > ~/.kube/config
+  - curl http://127.0.0.1:10080/config
   - kubectl get ns
